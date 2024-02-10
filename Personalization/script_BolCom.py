@@ -27,16 +27,16 @@ warnings.simplefilter("ignore")
 #     --exec_path Personalization/geckodriver.exe
 
 ### with user-agent:
-# python Personalization/script_BolCom.py
-#     --exp_name BC_second_exp2
-#     --items_list sneakers parfum sandalen horloge rugzak zonnebril kostuum trainingspak badpak jurk overhemd mantel laarzen koptelefoon yogamat sjaal badjas halsketting portemonnee
-#     --web_page https://www.bol.com/
-#     --exec_path Personalization/geckodriver.exe
-#     --ua_string "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+ python Personalization/script_BolCom.py
+     --exp_name BC_second_exp2
+     --items_list sneakers parfum sandalen horloge rugzak zonnebril kostuum trainingspak badpak jurk overhemd mantel laarzen koptelefoon yogamat sjaal badjas halsketting portemonnee
+     --web_page https://www.bol.com/
+     --exec_path Personalization/geckodriver.exe
+     --ua_string "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
 
 # LIST OF UA STRING:
 ### iPhone's user agent string
-# ua_string = 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3'
+ ua_string = 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B179 Safari/7534.48.3'
 ### Samsung Galaxy S3
 # ua_string = 'Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
 ###  non touch Blackberry device
